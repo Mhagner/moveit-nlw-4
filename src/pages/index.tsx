@@ -4,28 +4,30 @@ import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 import styles from "../styles/pages/Home.module.css";
 
-import Head from 'next/head'
+import Head from "next/head";
 import { ChallengeBox } from "../components/challengeBox";
+import { CountdonwProvider } from "../contexts/CountdownContext";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-    <Head>
-      <title>Início | move.it</title>      
-    </Head>
+      <Head>
+        <title>Início | move.it</title>
+      </Head>
 
       <ExperienceBar />
-
-      <section>
-        <div>
-          <Profile />
-          <CompletedChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChallengeBox />
-        </div>
-      </section>
+      <CountdonwProvider>
+        <section>
+          <div>
+            <Profile />
+            <CompletedChallenges />
+            <Countdown />
+          </div>
+          <div>
+            <ChallengeBox />
+          </div>
+        </section>
+      </CountdonwProvider>
     </div>
   );
 }
