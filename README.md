@@ -1,7 +1,12 @@
 # Moveit App - NLW#4
-Projeto Moveit desenvolvido na Semana Next Level Week com Diego Fernandes utilizando as tecnologias React e NextJS. 
+Projeto Moveit desenvolvido na Semana Next Level Week com Diego Fernandes utilizando as tecnologias React e NextJS. O app ajuda devs e outros profissionais que trabalham na maior parte do tempo sentados na frente do compotador 8 ou mais horas por dia. Com o app você ganha experiências e sobe de nível quando pratica os exercicios que são selecionados de forma aleatória.
 
+Interface:
 ![NLW#4](http://digbusiness.com.br/images/interface.PNG)
+
+Vídeo:
+[![Video](http://digbusiness.com.br/images/NL4-App.gif)]
+
     
 O projeto abordou a funcionalidade de Context API do React para compartilhamento de estados entre componentes.
 
