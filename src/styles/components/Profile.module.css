@@ -4,9 +4,11 @@
 }
 
 .profileContainer > img {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 6.5rem;
+    height: 6.5rem;
     border-radius: 50%;
+    border: 5px solid #9466ff;
+    padding: 4px;
 }
 
 .profileContainer div {
@@ -26,4 +28,6 @@
 
 .profileContainer div p img {
     margin-right: 0.5rem;
+    width: 26px;
+    height: 26px;
 }

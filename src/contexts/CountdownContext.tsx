@@ -24,7 +24,7 @@ interface CountdownProviderProps {
 
 export const CountdownContext = createContext({} as CountdownContextData);
 
-const configTime = 25;
+const configTime = 0.1;
 
 export function CountdonwProvider({ children }: CountdownProviderProps) {
   const { startNewChallenge } = useContext(ChallengesContext);

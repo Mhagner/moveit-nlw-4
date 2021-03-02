@@ -5,6 +5,19 @@
 }
 
 :root {
+    --white:#485058;
+    --background: #17191a;
+    --gray-line: #919296;
+    --text: #ffffff;
+    --title: #d8b1d4;
+    --red: #E83F5B;
+    --green: #fce903;
+    --blue: #5965E0;
+    --blue-dark: #4953B8;
+    --blue-twitter: #2AA9E0;
+}
+
+/* :root {
     --white:#fff;
     --background: #F2F3F5;
     --gray-line: #DCDDE0;
@@ -15,7 +28,7 @@
     --blue: #5965E0;
     --blue-dark: #4953B8;
     --blue-twitter: #2AA9E0;
-}
+} */
 
 @media(max-width: 1080px){
     html {
